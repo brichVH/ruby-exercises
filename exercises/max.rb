@@ -16,7 +16,8 @@ def max(list)
   max_so_far = list.first  # or, equivalently, list[0]
   list.each do |item|      # or, equivalently, for item in list
     if item > max_so_far   # if current item is greater than max so far
-      max_so_far = item    #   set max so far to current item
+      max_so_far = item
+      #   set max so far to current item
     end
   end
 
