@@ -1,8 +1,8 @@
 This is the **suggested order** for completing the exercises:
 
-1. [max.rb](max.rb)
-1. [min.rb](min.rb)
-1. [longest_string.rb](longest_string.rb)
+1. [max.rb](max.rb) x
+1. [min.rb](min.rb) x
+1. [longest_string.rb](longest_string.rb) 
 1. [shortest_string.rb](shortest_string.rb)
 1. [word_count.rb](word_count.rb)
 1. [count_in_list.rb](count_in_list.rb)
