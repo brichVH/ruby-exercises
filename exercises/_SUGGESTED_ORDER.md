@@ -9,7 +9,7 @@ This is the **suggested order** for completing the exercises:
 1. [count_max.rb](count_max.rb) x
 1. [sum.rb](sum.rb) x
 1. [mean.rb](mean.rb) x
-1. [print_square.rb](print_square.rb) 
+1. [print_square.rb](print_square.rb) x
 1. [print_triangle.rb](print_triangle.rb)
 1. [print_pyramid.rb](print_pyramid.rb)
 1. [print_horizontal_pyramid.rb](print_horizontal_pyramid.rb)
