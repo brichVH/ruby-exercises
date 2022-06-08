@@ -10,6 +10,13 @@
 #  find_even([10,10,10,11,11,11]) == [10,10,10]
 
 def find_even(array)
+  nums = []
+
+  array.each do | value |
+    value%2==0 ? nums.append(value) : ""
+  end
+  return nums
+
 end
 
 # Note #1
