@@ -10,11 +10,11 @@ This is the **suggested order** for completing the exercises:
 1. [sum.rb](sum.rb) x
 1. [mean.rb](mean.rb) x
 1. [print_square.rb](print_square.rb) x
-1. [print_triangle.rb](print_triangle.rb)
-1. [print_pyramid.rb](print_pyramid.rb)
-1. [print_horizontal_pyramid.rb](print_horizontal_pyramid.rb)
-1. [hot_or_cold.rb](hot_or_cold.rb)
-1. [bottles.rb](bottles.rb)
+1. [print_triangle.rb](print_triangle.rb) skip
+1. [print_pyramid.rb](print_pyramid.rb) skip
+1. [print_horizontal_pyramid.rb](print_horizontal_pyramid.rb) skip
+1. [hot_or_cold.rb](hot_or_cold.rb) x
+1. [bottles.rb](bottles.rb) x
 1. [find_even.rb](find_even.rb)
 1. [mode.rb](mode.rb)
 1. [commas.rb](commas.rb)

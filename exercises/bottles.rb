@@ -27,11 +27,16 @@
 #   etc.
 
 def bottles(start_number)
+  nums = 0..start_number
+
+  nums.reverse_each do |value|
+    puts "#{value} bottles of beer on the wall, #{value} bottles of beer.\nTake one down, pass it around, #{value} bottles of beer on the wall!\n"
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
   # What *should* this print?
-  bottles(5)
+  bottles(30)
 end
 
 # Hint #1:
