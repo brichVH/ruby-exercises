@@ -21,6 +21,11 @@
 
 def sum(list)
   # This is your job. :)
+  count = 0
+  list.each do |value|
+    count += value
+  end
+  return count
 end
 
 if __FILE__ == $PROGRAM_NAME
