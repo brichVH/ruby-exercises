@@ -14,8 +14,21 @@
 # go about finding the data point which occured most frequently?
 #
 # Break it down as clearly as you can in your own head first.
+require_relative "./max"
 
 def mode(array)
+  nums = Hash.new(0)
+
+  array.each do |value|
+    nums[value] += 1
+  end
+
+  print nums
+  print "\n"
+  nums = nums.sort_by {|k,v| v}.reverse
+  key, value = nums.first
+  return key
+
 end
 
 if __FILE__ == $PROGRAM_NAME

@@ -14,10 +14,18 @@
 #
 
 def factorial(n)
+  if(n==1)
+    return 1
+  elsif(n > 0)
+    return( n * factorial(n-1))
+  end
 end
 
 if __FILE__ == $PROGRAM_NAME
   # What are the common cases?  What are the corner cases?
   # Your sanity checks should look like
-  #   p factorial(input) == ...expected return value...
+  input = 10
+  p factorial(input) == 3628800
+  input = 11
+  p factorial(input) == 39916800
 end

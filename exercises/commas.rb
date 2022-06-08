@@ -20,12 +20,25 @@
 # insert the commas?  Which comma would you insert first?
 
 def commas(num)
+
+  str = num.to_s
+  count = str.size - 3
+
+  while count > 0
+    str.insert(count, ",")
+    count -= 3
+  end
+  return str
+
 end
 
 if __FILE__ == $PROGRAM_NAME
   # What are the common cases?  What are the corner cases?
   # Your sanity checks should look like
-  #   p commas(input) == ...expected return value...
+  input = 1234567890
+  p commas(input) == "1,234,567,890"
+  input = 12345678901234567890
+  p commas(input) == "12,345,678,901,234,567,890"
 end
 
 # Hint #1

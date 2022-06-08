@@ -23,10 +23,17 @@ require "nokogiri"
 #   http://ruby.bastardsbook.com/chapters/html-parsing/
 #   http://lostechies.com/rodpaddock/2011/04/11/hacking-websites-with-ruby-and-nokogiri/
 
+=begin
 def find_links(url)
   # This should return an array of all links at the given URL
+  page = Nokogiri::HTML(open(url))
+  return(page)
+
 end
 
-find_links("http://www.cnn.com/").each do |url|
+find_links('http://www.cnn.com/').each do |url|
   puts url
 end
+=end
+
+Nokogiri::HTML(open('http://www.cnn.com/'))
